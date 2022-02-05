@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css for body and background-->
+    <style>
+        body{
+            background-color: white;
+        }
+        .form{
+            max-width: 400px;
+            margin: auto;
+            background: rgb(245, 179, 179);
+            padding: 15px;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <header style="border-style: ridge; max-width: 430px; max-height: 100px; margin: auto; background: wheat;">
+        <h1>SING UP</h1>
+        <p >It's quick and easy</p>
+    </header>
+    <main>
+        <form action="#" method="#" class="form">
+                <input type="text" name="username" placeholder="first name" required>
+                <input type="text" name="username" placeholder="surname" required><br><br>
+                <input type="text" name="username" placeholder="Mobile number or Email ID" required><br><br>
+                <input type="password" name="username" placeholder="New password" required><br><br>
+                <label for="DOB">Date of birth</label><br>
+                <!-- inline css for date-->
+                <input type="number" id="DOB" list="date of birth" name="username" placeholder="date" style="height: 15px; width:60px;" required>
+                <datalist id="date of birth">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                    <option value="11"></option>
+                    <option value="12"></option>
+                    <option value="13"></option>
+                    <option value="14"></option>
+                    <option value="15"></option>
+                    <option value="16"></option>
+                    <option value="17"></option>
+                    <option value="18"></option>
+                    <option value="19"></option>
+                    <option value="20"></option>
+                    <option value="21"></option>
+                    <option value="22"></option>
+                    <option value="23"></option>
+                    <option value="24"></option>
+                    <option value="25"></option>
+                    <option value="26"></option>
+                    <option value="27"></option>
+                    <option value="28"></option>
+                    <option value="29"></option>
+                    <option value="30"></option>
+                    <option value="31"></option>
+                </datalist>
+                <!-- inline css for month -->
+                <input type="text" list="month" name="username" placeholder="Month" style="height: 15px; width:60px;" required>
+                <datalist id="month">
+                    <option value="January"></option>
+                    <option value="February"></option>
+                    <option value="March"></option>
+                    <option value="April"></option>
+                    <option value="May"></option>
+                    <option value="June"></option>
+                    <option value="July"></option>
+                    <option value="August"></option>
+                    <option value="September"></option>
+                    <option value="October"></option>
+                    <option value="November"></option>
+                    <option value="december"></option>
+
+                </datalist> 
+                <!-- inline css for year-->   
+                <input type="number" list="Year" name="usrname" placeholder="Year" style="height: 15px; width:60px;" required>
+                <datalist id="year">
+                    <option value="2000"></option>
+                    <option value="2001"></option>
+                    <option value="2002"></option>
+                    <option value="2003"></option>
+                    <option value="2004"></option>
+                    <option value="2005"></option>
+                </datalist>
+                <br><br>
+                <span>Gender?</span><br>
+                <input id="female" type="radio" name="username">
+                <label for="female">Female</label>
+                <input id="male" type="radio" name="username">
+                <label for="male">Male</label>
+                <input id="custom" type="radio" name="username">
+                <label for="Custom">Custom</label><br><br>
+                <!-- inline css for submit button-->
+                <input type="submit" value="Sign up" style="background: green; height: 25px; width: 90px;"><br><br>
+                <a href="#">Already have an acount?</a>
+
+            </form>
+        </main>
+        <!--- Inline css for footer-->
+        <footer style="font-size: 13px; max-width: 430px; margin: auto;">
+            <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+        </footer></body>
+        
+            
+        
+        
+    
+</body>
+</html>
